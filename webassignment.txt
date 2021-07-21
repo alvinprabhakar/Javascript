@@ -1,15 +1,15 @@
 1) List 5 difference between Browser JS(console) v Nodejs
 
-S.No      Browser JS 										                                Node js
+S.No      Browser JS 										            Node js
 
 1	Its runtime based on google chrome					        Its just the javascript engine v8 running 
-	javascript engine v8.								                standalone.
-2	Its mainly used for client-side applications		    Its mainly used for server-side applications
+	javascript engine v8.								standalone.
+2	Its mainly used for client-side applications		    			Its mainly used for server-side applications
 3	Its used for frontend applications					        Its used for backend applications
-4	Its runs in any engine like Spider Monkey(Firefox),	Its runs in a v8 engine which is mainly used 
-	Javascript Core(Safari),V8(Google Chrome)			      by google chrome
-5	Browser js is not headless and also module 			    Node js is headless and also it is mandatory to keep
-	is not mandatory									                  everything inside a module.
+4	Its runs in any engine like Spider Monkey(Firefox),				Its runs in a v8 engine which is mainly used 
+	Javascript Core(Safari),V8(Google Chrome)			      		by google chrome
+5	Browser js is not headless and also module 			    		Node js is headless and also it is mandatory to keep
+	is not mandatory								everything inside a module.
   
   
 2) watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
