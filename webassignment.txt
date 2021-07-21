@@ -1,0 +1,60 @@
+1) List 5 difference between Browser JS(console) v Nodejs
+
+S.No      Browser JS 										                                Node js
+
+1	Its runtime based on google chrome					        Its just the javascript engine v8 running 
+	javascript engine v8.								                standalone.
+2	Its mainly used for client-side applications		    Its mainly used for server-side applications
+3	Its used for frontend applications					        Its used for backend applications
+4	Its runs in any engine like Spider Monkey(Firefox),	Its runs in a v8 engine which is mainly used 
+	Javascript Core(Safari),V8(Google Chrome)			      by google chrome
+5	Browser js is not headless and also module 			    Node js is headless and also it is mandatory to keep
+	is not mandatory									                  everything inside a module.
+  
+  
+2) watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+
+      In Rendering we have Parsing,Layout,Painting. The below steps how the browser actually does rendering
+        1) Process HTML markup and build the DOM tree.
+        2) Process CSS markup and build the CSSOM tree.
+        3) Combine the DOM and CSSOM into a render tree.
+        4) Run layout on the render tree to compute geometry of each node.
+        5) Paint the individual nodes to the screen.
+
+
+3) To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
+      
+      It's true that the HTML specs permit certain tags to be omitted in certain cases, but generally doing so is unwise.
+      It has two effects - it makes the spec more complex, which in turn makes it harder for browser authors to write correct implementations.
+      This makes the likelihood of browser errors in these parts of the spec high. 
+      
+4) Execute the bellow code and write your description in txt file
+        typeof(1)
+        typeof(1.1)
+        typeof('1.1')
+        typeof(true)
+        typeof(null)
+        typeof(undefined)
+        typeof([])
+        typeof({})
+        typeof(NaN)
+        
+        output:
+        typeof(1)
+        "number"
+        typeof(1.1)
+        "number"
+        typeof('1.1')
+        "string"
+        typeof(true)
+        "boolean"
+        typeof(null)
+        "object"
+        typeof(undefined)
+        "undefined"
+        typeof([])
+        "object"
+        typeof({})
+        "object"
+        typeof(NaN)
+        "number"
