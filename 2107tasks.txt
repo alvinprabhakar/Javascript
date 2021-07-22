@@ -3,11 +3,14 @@
     { person: "Name 2", age: "5", company: "GUVI geek" },
     { person: "Name 3", age: "8", company: "GUVI geek network" },
   ]
+FOR:
 
 for (var i = 0 ; i < obj.length ; i++)
 {   
       console.log(obj[i]);
 }
+
+FOR IN:
 
 for (var i = 0 ; i < obj.length ; i++)
 {
@@ -17,11 +20,13 @@ for (var i = 0 ; i < obj.length ; i++)
     }
 }
 
+FOR OF:
 for (const val of obj)
 {
     console.log(val);
 }
 
+FOREACH:
 obj.forEach(function(e){
     console.log(e);
 })
@@ -44,11 +49,13 @@ function foo(values){
 }
 
 
-3)  for (const val of values){
-        console.log(val.name,val.region, val.subregion, val.population);
+3)use the same restcountries and print all countries name, region, sub region and population.
+for (const val of values){
+        console.log("Name :" + val.name + " Region :" + val.region + " Subregion" + val.subregion + " Poplulation" + val.population);
     }
     
-4) 
+4) read about the difference between window, screen and document in javascript:
+
 window is the execution context and global object for that context's JavaScript
 document contains the DOM, initialized by parsing HTML
 screen describes the physical display's full screen
